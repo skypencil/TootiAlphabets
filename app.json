@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloProject",
-    "slug": "HelloProject",
+    "name": "Tooti",
+    "slug": "tooti-alphabet",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -15,7 +15,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samimnewyork.tootidari"
+    },
+    "android": {
+      "package": "come.samimnewyork.tootidari"
     }
   }
 }

@@ -413,7 +413,6 @@ const styles = StyleSheet.create({
     color: 'white',
     marginBottom: 0,
     padding: 0,
-    resizeMode: 'contain',
     fontSize: win['height']/15,
     lineHeight: win['height']/13,
     textAlign: 'center',
